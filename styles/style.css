@@ -49,7 +49,7 @@ linear-gradient(#e7e7e7 0.01%, #1a1a1a);*/
           linear-gradient(#e7e7e7 0.01%, #1a1a1a);
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -232,10 +232,6 @@ linear-gradient(#e7e7e7 0.01%, #1a1a1a);*/
   filter: blur(3px);
 }
 
-.invert {
-  filter: invert(30%);
-}
-
 .card_button {
   height: 38px;
   display: flex;
@@ -284,7 +280,7 @@ linear-gradient(#e7e7e7 0.01%, #1a1a1a);*/
   transition: fill 0.3s  linear;
 }
 
-.main-body  {
+.main-body {
   fill: var(--heart-contour, #000);
   transition: opacity 0.3s linear;
 }
@@ -403,7 +399,7 @@ linear-gradient(#e7e7e7 0.01%, #1a1a1a);*/
 }
 
 .footer-button:focus,
-.card__like-button:focus{
+.card__like-button:focus {
   box-shadow: 1px 1px 1px 2px currentColor;
   border: none;
   transition: width 0.3s;
@@ -490,3 +486,4 @@ linear-gradient(#e7e7e7 0.01%, #1a1a1a);*/
   }
 }
 }
+
