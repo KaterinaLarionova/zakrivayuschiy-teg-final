@@ -1,0 +1,25 @@
+/* В этом файле вы опишете значения переменных в разных цветовых схемах.
+Придерживайтесь такого именования классов:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
+*/
+
+:root .theme-light {
+    --bg-color: #FFF;
+    --text-color: #000;
+    --bg-image: url(../svg/pattern-light.svg);
+    --lab-shadow: #FFF;
+
+}
+
+
+:root .theme-dark {
+  --bg-color: #000;
+    --text-color: #00CC14;
+    --bg-image: url(../svg/pattern-dark.svg);
+    --lab-shadow: #000;
+
+}
+
+

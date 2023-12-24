@@ -1,0 +1,18 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --max-wdth: 700px;
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'PressStart2P-Regular', fantasy;
+    --heart-fill: #FF0000;
+    /*--text-color: #000;
+    --accent-text-color: #00CC14;*/
+    --normal-wght: 400;
+    --bold-wght: 700;
+
+    --bg-color:  #FFF;
+    --accent-color: #000;
+
+
+
+    --heart-contour: #000;
+}
